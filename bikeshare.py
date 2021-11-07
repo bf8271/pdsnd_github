@@ -8,6 +8,7 @@ chicago_data = pd.read_csv('chicago.csv')
 nyc_data = pd.read_csv('new_york_city.csv')
 washington_data = pd.read_csv('washington.csv')
 
+# create dictionary for city files
 CITY_DATA = { 'chicago': chicago_data,
               'new york city': nyc_data,
               'washington': washington_data }
