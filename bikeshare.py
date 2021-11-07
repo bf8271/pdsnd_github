@@ -170,10 +170,10 @@ def user_stats(df):
         user_most_common_birth_year = len(df['Birth Year'][df['Birth Year'] == df['Birth Year'].mode().values[0]])
         
         print('\n Birth Year Statistics: \n')
-        print('Earliest birth year: ', earliest_birth_year)
+        print('Birth year of oldest user: ', earliest_birth_year)
         print('The route for the oldest user:', route_oldest_user)
         print('The gender for the oldest user:', gender_oldest_user)
-        print('Most Recent birth year: ', most_recent_birth_year)
+        print('Birth year of youngest user: ', most_recent_birth_year)
         print('The route for the youngest user:', route_youngest_user)
         print('The gender for the youngest user:', gender_youngest_user)
         print('Most common birth year: ', most_common_birth_year)
