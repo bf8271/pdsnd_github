@@ -1,7 +1,9 @@
+# Import packages
 import time
 import pandas as pd
 import numpy as np
 
+# read in csv files
 chicago_data = pd.read_csv('chicago.csv')
 nyc_data = pd.read_csv('new_york_city.csv')
 washington_data = pd.read_csv('washington.csv')
